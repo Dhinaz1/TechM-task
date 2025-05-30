@@ -15,5 +15,6 @@ spec:
       containers:
       - name: static-site
         image: dhinabluwie/static-site:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
